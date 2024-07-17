@@ -14,9 +14,10 @@ public class Main {
         int max = 0;
         int num = 0;
 
-        for(int i : array){
-            if (i>max) {
-                max = i;
+        for(int i = 0;i<9;i++){
+            if (array[i]>max) {
+                max = array[i];
+                num = i+1;
             }
         }
         System.out.println(max);

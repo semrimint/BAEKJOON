@@ -22,7 +22,7 @@ public class Main {
                 }
             }
         }
-        System.err.println("test");
+        System.out.print(max.num+"\n"+max.x+" "+max.y);
     
         in.close();
     }
